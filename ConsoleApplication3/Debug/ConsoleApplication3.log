@@ -1,0 +1,56 @@
+﻿Build started 7/8/2014 1:07:16 PM.
+     1>Project "C:\Users\Logan\documents\visual studio 2012\Projects\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Logan\My Documents\Visual Studio 2012\SFML-2.1\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp
+         Game.cpp
+     1>c:\users\logan\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\game.cpp(26): warning C4244: 'argument' : conversion from 'const float' to 'unsigned int', possible loss of data
+     1>c:\users\logan\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\game.cpp(38): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned long', possible loss of data
+     1>c:\users\logan\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\game.cpp(132): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\logan\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\game.cpp(183): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\logan\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\game.cpp(222): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\logan\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\game.cpp(257): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\logan\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\game.cpp(299): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\logan\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\game.cpp(416): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\logan\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\game.cpp(517): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\users\logan\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\game.cpp(519): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\users\logan\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\game.cpp(563): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\logan\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\game.cpp(639): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\logan\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\game.cpp(647): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\logan\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\game.cpp(667): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\logan\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\game.cpp(674): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\logan\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\game.cpp(678): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\logan\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\game.cpp(692): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\logan\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\game.cpp(694): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\logan\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\game.cpp(778): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\logan\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\game.cpp(779): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\logan\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\game.cpp(903): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\logan\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\game.cpp(911): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\logan\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\game.cpp(950): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\logan\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\game.cpp(952): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\logan\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\game.cpp(968): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\logan\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\game.cpp(974): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\logan\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\game.cpp(1079): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Logan\documents\visual studio 2012\Projects\ConsoleApplication3\Debug\ConsoleApplication3.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Logan\My Documents\Visual Studio 2012\SFML-2.1\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Logan\documents\visual studio 2012\Projects\ConsoleApplication3\Debug\ConsoleApplication3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Logan\documents\visual studio 2012\Projects\ConsoleApplication3\Debug\ConsoleApplication3.lib" /MACHINE:X86 Debug\BoxedObj.obj
+         Debug\CreatureFactory.obj
+         Debug\Game.obj
+         Debug\Gold.obj
+         Debug\Inventory.obj
+         Debug\Item.obj
+         Debug\LevelMaker.obj
+         Debug\main.obj
+         Debug\Monster.obj
+         Debug\Player.obj
+         Debug\Portal.obj
+         Debug\Potion.obj
+         Debug\Spell.obj
+         Debug\TextureHolder.obj
+         Debug\Tile.obj
+         Debug\UI.obj
+         Debug\Weapon.obj
+         ConsoleApplication3.vcxproj -> C:\Users\Logan\documents\visual studio 2012\Projects\ConsoleApplication3\Debug\ConsoleApplication3.exe
+     1>Done Building Project "C:\Users\Logan\documents\visual studio 2012\Projects\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.23

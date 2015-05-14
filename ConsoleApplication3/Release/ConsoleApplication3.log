@@ -1,0 +1,66 @@
+﻿Build started 5/9/2015 3:01:08 PM.
+     1>Project "C:\Users\Logan\documents\visual studio 2012\Projects\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Logan\My Documents\Visual Studio 2012\SFML-2.1\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp
+         Game.cpp
+     1>Game.cpp(57): warning C4244: 'argument' : conversion from 'const float' to 'unsigned int', possible loss of data
+     1>Game.cpp(68): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned long', possible loss of data
+     1>Game.cpp(85): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Game.cpp(293): warning C4018: '<' : signed/unsigned mismatch
+     1>Game.cpp(329): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Game.cpp(363): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Game.cpp(365): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Game.cpp(398): warning C4018: '<' : signed/unsigned mismatch
+     1>Game.cpp(508): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>Game.cpp(576): warning C4018: '>' : signed/unsigned mismatch
+     1>Game.cpp(578): warning C4018: '>' : signed/unsigned mismatch
+     1>Game.cpp(634): warning C4018: '<' : signed/unsigned mismatch
+     1>Game.cpp(708): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Game.cpp(721): warning C4018: '<' : signed/unsigned mismatch
+     1>Game.cpp(723): warning C4018: '<' : signed/unsigned mismatch
+     1>Game.cpp(807): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Game.cpp(808): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Game.cpp(932): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>Game.cpp(941): warning C4018: '<' : signed/unsigned mismatch
+     1>Game.cpp(985): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Game.cpp(987): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Game.cpp(1003): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Game.cpp(1009): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Game.cpp(1088): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Game.cpp(1093): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Game.cpp(1100): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Game.cpp(1105): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Game.cpp(1112): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Game.cpp(1118): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Game.cpp(1123): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Game.cpp(1128): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Game.cpp(1142): warning C4018: '<' : signed/unsigned mismatch
+     1>Game.cpp(1289): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Logan\documents\visual studio 2012\Projects\ConsoleApplication3\Release\ConsoleApplication3.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\Logan\My Documents\Visual Studio 2012\SFML-2.1\lib" "sfml-graphics.lib" "sfml-window.lib" "sfml-system.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Logan\documents\visual studio 2012\Projects\ConsoleApplication3\Release\ConsoleApplication3.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Logan\documents\visual studio 2012\Projects\ConsoleApplication3\Release\ConsoleApplication3.lib" /MACHINE:X86 /SAFESEH Release\BoxedObj.obj
+         Release\CreatureFactory.obj
+         Release\EquipmentHolder.obj
+         Release\Game.obj
+         Release\Gold.obj
+         Release\Inventory.obj
+         Release\Item.obj
+         Release\LevelMaker.obj
+         Release\main.obj
+         Release\Monster.obj
+         Release\MouseService.obj
+         Release\Player.obj
+         Release\Portal.obj
+         Release\Potion.obj
+         Release\Spell.obj
+         Release\TextureHolder.obj
+         Release\Tile.obj
+         Release\UI.obj
+         Release\Weapon.obj
+         Generating code
+         Finished generating code
+         ConsoleApplication3.vcxproj -> C:\Users\Logan\documents\visual studio 2012\Projects\ConsoleApplication3\Release\ConsoleApplication3.exe
+     1>Done Building Project "C:\Users\Logan\documents\visual studio 2012\Projects\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.21
